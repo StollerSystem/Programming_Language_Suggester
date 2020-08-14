@@ -16,10 +16,10 @@
     <form id="mainForm">
       <div class="row"  class="form-group">
         <div class="col-6">
-          <label for="name"><h2>Please tell us your name:</h2></label>
+          <label for="name"><h2 id="nameLabel">Please tell us your name:</h2></label>
         </div>
         <div class="col-6">
-          <input id="name" class="form-control" type="text">
+          <input id="name" class="form-control" type="text" placeholder="Name">
         </div>
       </div> 
 
@@ -51,55 +51,58 @@
           </select>
         </div>
       </div>
-      <div>
-        <h2>Please choose your favorites:</h2>
+      <div id="radioButtons">
+        <h2>Choose your favorite in the two catagories:</h2>
         <div class="row">
           <div class="col-6">
+            <h3>Movies</h3>
             <div class="radio">
               <label>
                 <input type="radio" name="question3" value="chocolate" checked>
-                Chocolate
+                Sci-fi
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="question3" value="vanilla">
-                Vanilla
+                Adventure
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="question3" value="cookiesandcream">
-                Cookies & Cream
+                Drama
               </label>
             </div>
           </div>
           <div class="col-6">
+            <h3>Books</h3>
             <div class="radio">
               <label>
                 <input type="radio" name="question4" value="chocolate" checked>
-                Chocolate
+                Fiction
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="question4" value="vanilla">
-                Vanilla
+                Fantasy
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="question4" value="cookiesandcream">
-                Cookies & Cream
+                Technical Manuals
               </label>
             </div>
           </div>          
-        </div>      
-        <div class="form-group">
-          <label for="question5"><h2>Please complete the sentence: _____ the planet!!!</h2></label>
-          <input id="question5" class="form-control" type="text">
         </div>
-        <button type="submit" class="btn">Submit!</button>
+      </div>         
+      <div class="form-group" id="sentence">
+        <label for="question5"><h2>Please complete the sentence: _____ the planet!!!</h2></label>
+        <input id="question5" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Submit!</button>             
     </form>
 
     <div id="result-python">
