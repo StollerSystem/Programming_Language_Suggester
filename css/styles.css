@@ -18,9 +18,11 @@ body {
   border-radius: 5px;
   border-width: 1px;
 }
-#question1, #question2 {
+#question1, #question2, #question5 {
   background-color: black;
   color: rgb(148, 238, 13);
+  border: solid rgb(151, 245, 11);
+  border-width: 1px;
 
 }
 
@@ -32,6 +34,7 @@ body {
   border: solid rgb(151, 245, 11);
   border-radius: 5px;
   border-width: 1px;
+  border-
 }
 #nameLabel {
   margin-top: 10px;
@@ -53,6 +56,7 @@ body {
   width: 20%;
 }
 .btn {
-  margin-top: 5px;
+  margin: 10px;
   background-color: greenyellow;
+  font-weight: bold;
 }
