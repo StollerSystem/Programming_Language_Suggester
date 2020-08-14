@@ -10,11 +10,15 @@ body {
   display: none;
 }
 
-#mainTop {
-  margin-top: 15px;
+#mainTop {  
+  font-size: 35px;
+  margin: auto;
+  margin-top: 20px;
   text-align: center;
-  margin-bottom: 20px;  
+  margin-bottom: 30px;  
+  width: 75%;
 }
+
 h2, h3 {
   font-size: 28px;
   font-weight: 275;
@@ -38,6 +42,7 @@ h2, h3 {
 }
 
 #mainForm {
+  opacity: .8;
   background-color: black;
   margin: auto;
   width: 75%;
@@ -88,6 +93,7 @@ h2, h3 {
 }
 
 .result {
+  opacity: .9;
   padding: 30px;
   background-color: black;
   margin: auto;
@@ -100,16 +106,12 @@ h2, h3 {
   box-shadow: 1px 1px 4px 4px rgb(151, 245,11);  
 }
 
-.result img {  
-  /* background: transparent; 
-  background-color: transparent; */
+.result img {    
   margin: auto;
-  width: 50%;
-  /* box-sizing: border-box; */
+  width: 50%;  
 }
 
-#result-hack img {
-  /* background-image: url(https://i.pinimg.com/originals/cb/64/cd/cb64cd64b393244185daf0d9021a8573.jpg); */
+#result-hack img {  
   margin: auto;
   margin-top: 5px;
   width: 100%;
