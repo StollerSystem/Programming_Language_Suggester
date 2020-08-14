@@ -2,3 +2,19 @@ body {
   background-color: black;
   color: greenyellow;
 }
+#mainTop {
+  text-align: center;
+}
+
+#mainForm {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  border: solid greenyellow;
+  border-radius: 5px;
+  border-width: 1px;
+}
+#question5 {
+  
+  width: 10%;
+}
