@@ -7,16 +7,28 @@ function answerBranch(answer1,answer2,answer3,answer4,answer5) {
     $("#mainTop").hide();
   } 
     else if (answer1==="a"&&answer2==="a"||answer1==="a"&&answer3==="a"||answer1==="a"&&answer4==="a"||answer2==="a"&&answer3==="a"||answer2==="a"&&answer4==="a"||answer3==="a"&&answer4==="a") {
+    $("#mainForm").hide();
+    $("#mainTop").hide();  
     $("#result-python").show();
+
   } 
     else if (answer1==="b"&&answer2==="b"||answer1==="b"&&answer3==="b"||answer1==="b"&&answer4==="b"||answer2==="b"&&answer3==="b"||answer2==="b"&&answer4==="b"||answer3==="b"&&answer4==="b") {
+    $("#mainForm").hide();
+    $("#mainTop").hide();
     $("#result-javaScript").show();
+
   } 
     else if (answer1==="c"&&answer2==="c"||answer1==="c"&&answer3==="c"||answer1==="c"&&answer4==="c"||answer2==="c"&&answer3==="c"||answer2==="c"&&answer4==="c"||answer3==="c"&&answer4==="c") {
-   $("#result-ruby").show();
+    $("#mainForm").hide();
+    $("#mainTop").hide();
+    $("#result-ruby").show();
+
   } 
     else {
+      $("#mainForm").hide();
+      $("#mainTop").hide();
       $("#result-Csharp").show();
+
     }
 }
 
