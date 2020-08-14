@@ -35,7 +35,6 @@ h2, h3 {
   color: rgb(148, 238, 13);
   border: solid rgb(151, 245, 11);
   border-width: 1px;
-
 }
 
 #mainForm {
@@ -119,9 +118,4 @@ h2, h3 {
   border-width: 1px;  
   box-shadow: 1px 1px 4px 4px rgb(151, 245,11);
 }
-/* .radio {
-  color: greenyellow;
-} */
-.container input:checked ~ .checkmark {
-  background-color: greenyellow;
-}
+
