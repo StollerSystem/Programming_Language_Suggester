@@ -5,6 +5,7 @@ function answerBranch(answer1,answer2,answer3,answer4,bonus) {
   if (bonus === "hack"){
     $("#mainForm").hide();
     $("#mainTop").hide();
+    $("#result-hack").show();
   } 
     else if (answer1==="a"&&answer2==="a"||answer1==="a"&&answer3==="a"||answer1==="a"&&answer4==="a"||answer2==="a"&&answer3==="a"||answer2==="a"&&answer4==="a"||answer3==="a"&&answer4==="a") {
     $("#mainForm").hide(1500);
@@ -13,15 +14,15 @@ function answerBranch(answer1,answer2,answer3,answer4,bonus) {
 
   } 
     else if (answer1==="b"&&answer2==="b"||answer1==="b"&&answer3==="b"||answer1==="b"&&answer4==="b"||answer2==="b"&&answer3==="b"||answer2==="b"&&answer4==="b"||answer3==="b"&&answer4==="b") {
-    // $("#mainForm").hide();
-    // $("#mainTop").hide();
-    $("#result-javaScript").show();
+    $("#mainForm").hide(1500);
+    $("#mainTop").hide(1500);
+    $("#result-javaScript").show(1500);
 
   } 
     else if (answer1==="c"&&answer2==="c"||answer1==="c"&&answer3==="c"||answer1==="c"&&answer4==="c"||answer2==="c"&&answer3==="c"||answer2==="c"&&answer4==="c"||answer3==="c"&&answer4==="c") {
-    // $("#mainForm").hide();
-    // $("#mainTop").hide();
-    $("#result-ruby").show();
+    $("#mainForm").hide(1500);
+    $("#mainTop").hide(1500);
+    $("#result-ruby").show(1500);
 
   } 
     else {
