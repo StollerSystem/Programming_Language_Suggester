@@ -18,9 +18,6 @@ function answerBranch(answer1,answer2,answer3,answer4,answer5) {
     else {
       $("#result-Csharp").show();
     }
-
-
-
 }
 
 
@@ -36,6 +33,7 @@ $(document).ready(function() {
     $("#result-python").hide();
     $("#result-Csharp").hide();
     $("#result-javaScript").hide();
+    $("#result-ruby").hide();
     let name = $("#name").val();
     let answer1 = $("#question1").val();
     let answer2 = $("#question2").val();
