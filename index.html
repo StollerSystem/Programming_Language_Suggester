@@ -14,9 +14,14 @@
       <p>Please answer some questions to help us figure out the right option for you! When you're done hit</p>
     </div>  
     <form id="mainForm">
-      <button type="submit" class="btn">Submit!</button>  
+      <button type="submit" class="btn">Submit!</button>
+      <div class="form-group">        
+        <label for="name"><h2>Please tell us your name:</h2></label>
+        <input id="name" class="form-control" type="text">
+      </div>      
       <div>
-        <h2>Please make a selection:</h2>
+        <h2>From the two drop down menus, please select what sounds most appealing to you:</h2>
+        <label for="question1">Choose one:</label>
         <select class="form control" id="question1">
           <option></option>
           <option>2</option>
@@ -24,7 +29,8 @@
         </select>
       </div>
       <div>
-        <h2>Please make a selection:</h2>
+        <!-- <h2>Please make a selection:</h2> -->
+        <label for="question1">Choose one:</label>
         <select class="form control" id="question2">
           <option></option>
           <option>2</option>

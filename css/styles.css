@@ -17,8 +17,8 @@ body {
   border-radius: 5px;
   border-width: 1px;
 }
-#question5 {
-  
+#question5, #name { 
+  margin: auto; 
   width: 10%;
 }
 .btn {
