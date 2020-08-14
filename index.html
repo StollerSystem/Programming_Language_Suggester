@@ -8,85 +8,89 @@
   <title>Programming Language Suggester</title>
 </head>
 <body>
-  <div id="mainTop">
-    <h1>New to Programming? Let's find the right language for you!</h1>
-    <p>Please answer some questions to help us figure out the right option for you! When you're done hit</p>
-  </div>
-  
-
-  
-  <form id="mainForm">
-    <button type="submit" class="btn">Submit!</button>  
-    <div>
-      <h2>Please make a selection:</h2>
-      <select class="form control" id="question1">
-        <option></option>
-        <option>2</option>
-        <option>3</option>
-      </select>
-    </div>
-    <div>
-      <h2>Please make a selection:</h2>
-      <select class="form control" id="question2">
-        <option></option>
-        <option>2</option>
-        <option>3</option>
-      </select>
-    </div>
-
-    <div>
-      <h2>Please make a selection:</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question3" value="chocolate" checked>
-          Chocolate
-        </label>
+  <div class="container">
+    <div id="mainTop">
+      <h1>New to Programming? Let's find the right language for you!</h1>
+      <p>Please answer some questions to help us figure out the right option for you! When you're done hit</p>
+    </div>  
+    <form id="mainForm">
+      <button type="submit" class="btn">Submit!</button>  
+      <div>
+        <h2>Please make a selection:</h2>
+        <select class="form control" id="question1">
+          <option></option>
+          <option>2</option>
+          <option>3</option>
+        </select>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question3" value="vanilla">
-          Vanilla
-        </label>
+      <div>
+        <h2>Please make a selection:</h2>
+        <select class="form control" id="question2">
+          <option></option>
+          <option>2</option>
+          <option>3</option>
+        </select>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question3" value="cookiesandcream">
-          Cookies & Cream
-        </label>
-      </div>
-
       <div>
         <h2>Please make a selection:</h2>
         <div class="radio">
           <label>
-            <input type="radio" name="question4" value="chocolate" checked>
+            <input type="radio" name="question3" value="chocolate" checked>
             Chocolate
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question4" value="vanilla">
+            <input type="radio" name="question3" value="vanilla">
             Vanilla
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question4" value="cookiesandcream">
+            <input type="radio" name="question3" value="cookiesandcream">
             Cookies & Cream
           </label>
         </div>
-      </div>
-      
-      <div class="form-group">
-        <label for="question5"><h2>Please complete the sentence: _____ the planet!!!</h2></label>
-        <input id="question5" class="form-control" type="text">
-      </div>
-  </form>
-  
+        <div>
+          <h2>Please make a selection:</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="chocolate" checked>
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="cookiesandcream">
+              Cookies & Cream
+            </label>
+          </div>
+        </div>      
+        <div class="form-group">
+          <label for="question5"><h2>Please complete the sentence: _____ the planet!!!</h2></label>
+          <input id="question5" class="form-control" type="text">
+        </div>
+    </form>
 
-  
-  
+    <div id="result-python">
+      <p>You got Python!</p>
+    </div>
 
-  
+    <div id="result-Csharp">
+      <p>You got C#!</p>
+    </div>
+    
+    <div id="result-javaScript">
+      <p>You got JavaScript!</p>
+    </div>
+
+
+  </div>  
 </body>
 </html>
