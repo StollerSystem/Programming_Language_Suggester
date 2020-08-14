@@ -6,6 +6,18 @@ function answerBranch(answer1,answer2,answer3,answer4,answer5) {
     $("#mainForm").hide();
     $("#mainTop").hide();
   } 
+    else if (answer1==="a"&&answer2==="a"||answer1==="a"&&answer3==="a"||answer1==="a"&&answer4==="a"||answer2==="a"&&answer3==="a"||answer2==="a"&&answer4==="a"||answer3==="a"&&answer4==="a") {
+    $("#result-python").show();
+  } 
+    else if (answer1==="b"&&answer2==="b"||answer1==="b"&&answer3==="b"||answer1==="b"&&answer4==="b"||answer2==="b"&&answer3==="b"||answer2==="b"&&answer4==="b"||answer3==="b"&&answer4==="b") {
+    $("#result-javaScript").show();
+  } 
+    else if (answer1==="c"&&answer2==="c"||answer1==="c"&&answer3==="c"||answer1==="c"&&answer4==="c"||answer2==="c"&&answer3==="c"||answer2==="c"&&answer4==="c"||answer3==="c"&&answer4==="c") {
+   $("#result-ruby").show();
+  } 
+    else {
+      $("#result-Csharp").show();
+    }
 
 
 
@@ -21,6 +33,9 @@ $(document).ready(function() {
 
   $("#mainForm").submit(function(event) {
     event.preventDefault(event);
+    $("#result-python").hide();
+    $("#result-Csharp").hide();
+    $("#result-javaScript").hide();
     let name = $("#name").val();
     let answer1 = $("#question1").val();
     let answer2 = $("#question2").val();

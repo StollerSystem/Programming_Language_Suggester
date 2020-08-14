@@ -4,7 +4,7 @@ body {
   background-image: url(matrix.jpg);
   color: rgb(148, 238, 13);
 }
-#result-python, #result-Csharp, #result-javaScript {
+#result-python, #result-Csharp, #result-javaScript, #result-ruby {
   display: none;
 }
 #mainTop {
