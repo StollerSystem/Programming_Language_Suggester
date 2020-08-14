@@ -10,6 +10,19 @@ body {
 #mainTop {
   text-align: center;
 }
+#dropDown {
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  border: solid rgb(151, 245, 11);
+  border-radius: 5px;
+  border-width: 1px;
+}
+#question1, #question2 {
+  background-color: black;
+  color: rgb(148, 238, 13);
+
+}
 
 #mainForm {
   background-color: black;
@@ -20,9 +33,16 @@ body {
   border-radius: 5px;
   border-width: 1px;
 }
-#question5, #name { 
-  margin: auto; 
-  width: 10%;
+#name { 
+  margin-right: 30px;
+  margin-top: 10px;
+  float: left;
+  width: 20%;
+  height: 60%;
+}
+#question5 { 
+  margin: auto;  
+  width: 20%;
 }
 .btn {
   margin-top: 5px;

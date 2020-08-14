@@ -14,31 +14,42 @@
       <p>Please answer some questions to help us figure out the right option for you! When you're done hit</p>
     </div>  
     <form id="mainForm">
-      <button type="submit" class="btn">Submit!</button>
-      <div class="form-group">        
+      <div class="row"  class="form-group">
+        <div class="col-6">
+          <label for="name"><h2>Please tell us your name:</h2></label>
+        </div>
+        <div class="col-6">
+          <input id="name" class="form-control" type="text">
+        </div>
+      </div> 
+
+      <!-- <div class="form-group" class="form-horizontal">        
         <label for="name"><h2>Please tell us your name:</h2></label>
         <input id="name" class="form-control" type="text">
-      </div>      
-      <div>
-        <h2>From the two drop down menus, please select what sounds most appealing to you:</h2>
-        <label for="question1">Choose one:</label>
-        <select class="form control" id="question1">
-          <option></option>
-          <option value="a">Designing video games</option>
-          <option value="b">Building websites</option>
-          <option value="c">Creating apps</option>
-          <option value="d">Managing a database</option>
-        </select>
-      </div>
-      <div>
-        <!-- <h2>Please make a selection:</h2> -->
-        <label for="question1">Choose one:</label>
-        <select class="form control" id="question2">
-          <option></option>
-          <option value="a">Working for a design studio</option>
-          <option value="b">Working as a freelance devoloper</option>
-          <option value="c">Working for a large company</option>
-        </select>
+      </div>  -->
+
+      <div id="dropDown">
+        <div>
+          <h2>From the two drop down menus, please select what sounds most appealing to you:</h2>
+          <label for="question1">Choose one:</label>
+          <select class="form control" id="question1">
+            <option></option>
+            <option value="a">Designing video games</option>
+            <option value="b">Building websites</option>
+            <option value="c">Creating apps</option>
+            <option value="d">Managing a database</option>
+          </select>
+        </div>
+        <div>
+          <!-- <h2>Please make a selection:</h2> -->
+          <label for="question1">Choose one:</label>
+          <select class="form control" id="question2">
+            <option></option>
+            <option value="a">Working for a design studio</option>
+            <option value="b">Working as a freelance devoloper</option>
+            <option value="c">Working for a large company</option>
+          </select>
+        </div>
       </div>
       <div>
         <h2>Please choose your favorites:</h2>
@@ -88,6 +99,7 @@
           <label for="question5"><h2>Please complete the sentence: _____ the planet!!!</h2></label>
           <input id="question5" class="form-control" type="text">
         </div>
+        <button type="submit" class="btn">Submit!</button>
     </form>
 
     <div id="result-python">

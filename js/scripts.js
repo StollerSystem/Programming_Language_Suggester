@@ -30,5 +30,4 @@ $(document).ready(function() {
     console.log(name,answer1,answer2,answer3,answer4,answer5);
     answerBranch(answer1,answer2,answer3,answer4,answer5);
   });
-
 });
