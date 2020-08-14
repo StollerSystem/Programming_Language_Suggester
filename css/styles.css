@@ -68,18 +68,21 @@ body {
 }
 
 .result {
+  padding: 30px;
   background-color: black;
   margin: auto;
+  margin-top: 200px;
   width: 75%;
   text-align: center;
   border: solid rgb(151, 245, 11);
   border-radius: 5px;
   border-width: 1px;
+  
 }
-.img {  
-  background: transparent; 
-  background-color: transparent;
+img {  
+  /* background: transparent; 
+  background-color: transparent; */
   margin: auto;
-  width: 10%;
-  box-sizing: border-box;
+  width: 50%;
+  /* box-sizing: border-box; */
 }

@@ -7,9 +7,9 @@ function answerBranch(answer1,answer2,answer3,answer4,bonus) {
     $("#mainTop").hide();
   } 
     else if (answer1==="a"&&answer2==="a"||answer1==="a"&&answer3==="a"||answer1==="a"&&answer4==="a"||answer2==="a"&&answer3==="a"||answer2==="a"&&answer4==="a"||answer3==="a"&&answer4==="a") {
-    // $("#mainForm").hide();
-    // $("#mainTop").hide();  
-    $("#result-python").show();
+    $("#mainForm").hide(1500);
+    $("#mainTop").hide(1500);  
+    $("#result-python").show(1500);
 
   } 
     else if (answer1==="b"&&answer2==="b"||answer1==="b"&&answer3==="b"||answer1==="b"&&answer4==="b"||answer2==="b"&&answer3==="b"||answer2==="b"&&answer4==="b"||answer3==="b"&&answer4==="b") {
@@ -25,9 +25,9 @@ function answerBranch(answer1,answer2,answer3,answer4,bonus) {
 
   } 
     else {
-      // $("#mainForm").hide();
-      // $("#mainTop").hide();
-      $("#result-Csharp").show();
+      $("#mainForm").hide(1500);
+      $("#mainTop").hide(1500);
+      $("#result-Csharp").show(1500);
 
     }
 }
