@@ -4,13 +4,13 @@
 
 #### By Ben Stoller
 
-### Link to GitHUb Pages:
+### Link to GitHub Pages:
 
 https://StollerSystem.github.io/Programming_Language_Suggester
 
 ## Description
 
-This webpage will take input from the user who must answer 4 questions and one bonus question. Based on the choices of the user the site will figure out what is the best choice for a first programming language. There are 4 possible languages it may suggest - Python, JavaScript, C# and Ruby. See if you can get them all! Plus there is a HIDDEN SECRET if you can pass the bonus question :)
+This webpage is a form that will take input from the user who must answer four questions and optionally one bonus question. Based on the choices of the user the site will figure out what is the best choice for a first programming language. There are 4 possible languages it may suggest - Python, JavaScript, C# and Ruby. See if you can get them all! Plus there is a HIDDEN SECRET if you can pass the bonus question :)
 
 ## Setup/Installation Requirements
 
